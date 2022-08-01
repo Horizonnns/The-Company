@@ -7,32 +7,47 @@
   --offset: 190px;
 }
 
-// Правильное отображение блочной модели (Падинги не увеличивают элемент. Контент сужается во внутр) //
+// Минимальный сброс стилей //
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
-// На все элементы страницы //
 *,
-*::before,
-*::after {
+*:before,
+*:after {
   box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 // Ссылки наследуют цвет от рордителя и не имеют подчеркывание //
 a {
   color: inherit;
   text-decoration: none;
-}
-
-// Картинки плавно сжымаються при адаптиве страницы //
-img {
-  max-width: 100%;
-}
-
-// Шрифт //
-body {
-  font-family: 'Inter', sans-serif;
 }
 
 // Сброс стилья кнопок поумольчание //
@@ -62,19 +77,9 @@ body {
   clip: rect(0 0 0 0);
 }
 
-// Сброс отступа у параграфа //
-p {
-  margin: 0;
-}
-
-// Сброс отступа у заголовок //
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+// Шрифт //
+body {
+  font-family: 'Inter', sans-serif;
 }
 
 .grid {
