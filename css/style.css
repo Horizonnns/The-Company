@@ -190,7 +190,7 @@ body {
   height: 100vh;
   min-height: 800px;
   padding-top: 270px;
-  background: url(/assets/img/hero-cover.jpg) no-repeat;
+  background: url(../assets/img/hero-cover.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
