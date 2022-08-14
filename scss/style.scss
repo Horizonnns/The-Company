@@ -126,6 +126,7 @@ body {
   margin-right: 35px;
   transition: all 0.3s;
   color: var(--color-light);
+
   &:hover {
     color: var(--color-grey);
     transform: scale(1.2);
@@ -147,6 +148,7 @@ body {
 
 .nav__item {
   transition: all 0.3s;
+
   &:hover {
     transform: scale(1.2);
   }
@@ -164,6 +166,7 @@ body {
   line-height: 19px;
   color: var(--color-light);
   transition: all 0.3s;
+
   &:hover {
     color: var(--color-grey);
   }
@@ -173,7 +176,7 @@ body {
   height: 100vh;
   min-height: 800px;
   padding-top: 270px;
-  background: url(../img/hero-cover.jpg) no-repeat;
+  background: url(/assets/img/hero-cover.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -212,6 +215,7 @@ body {
   color: var(--color-dark);
   background-color: var(--color-light);
   transition: all 0.3s;
+
   &:hover {
     color: var(--color-light);
     background-color: var(--color-dark);
@@ -222,6 +226,7 @@ body {
   color: var(--color-light);
   background-color: var(--color-dark);
   transition: all 0.3s;
+
   &:hover {
     color: var(--color-dark);
     background-color: var(--color-light);
@@ -240,6 +245,7 @@ body {
   line-height: 140%;
   color: var(--color-dark);
 }
+
 .completed__descr {
   font-size: 16px;
   font-weight: 400;
@@ -298,6 +304,7 @@ body {
   background-color: transparent;
   color: var(--color-light);
   transition: all 0.3s;
+
   &:hover {
     color: var(--color-grey);
   }
@@ -468,6 +475,7 @@ body {
   width: 40px;
   height: 40px;
   transition: all 0.3s;
+
   &:hover {
     transform: scale(1.4);
   }
@@ -498,6 +506,7 @@ body {
   color: var(--color-light);
   background-color: transparent;
   border-bottom: 1px solid var(--color-grey);
+
   &:focus {
     border-bottom: 1px solid var(--color-light);
   }
@@ -519,6 +528,7 @@ body {
   background-color: transparent;
   transition: all 0.3s;
   color: var(--color-light);
+
   &:hover {
     color: var(--color-grey);
     transform: scale(1.4);
